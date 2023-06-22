@@ -1,0 +1,36 @@
+:root {
+    --bs-success-rgb: 71, 222, 152 !important;
+}
+
+@font-face {
+    font-family: 'Cocogoose';
+    src: url(fonts\Cocogoose Pro-trial.ttf);
+}
+
+@font-face {
+    font-family: 'PT_Sans_Narrow';
+    src: url(fonts\PT_Sans-Narrow-Web-Regular.ttf);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family:'PT_Sans_Narrow', sans-serif;
+}
+
+.btn-info.text-light:hover,
+.btn-info.text-light:focus {
+    background: #000;
+}
+table, tbody, td, tfoot, th, thead, tr {
+    border-color: #ededed !important;
+    border-style: solid;
+    border-width: 1px !important;
+}
+.title{
+    font-size: 30px;
+}
+
+#calendar .fc .fc-toolbar.fc-header-toolbar{
+    font-family:'PT_Sans_Narrow', sans-serif;
+}
